@@ -44,7 +44,13 @@
  *  隐藏HUD
  */
 + (void)hide;
-
+/**
+ *  显示topWindow
+ */
 + (void)showTopWindow;
+/**
+ *  隐藏topWindow
+ */
++ (void)hideTopWindow;
 
 @end

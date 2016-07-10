@@ -147,9 +147,18 @@ static NSTimer *timer_;
         timer_ = nil;
     }];
 }
-
+/**
+ *  显示topWindow
+ */
 + (void)showTopWindow
 {
     [ZCTopWindow show];
+}
+/**
+ *  隐藏topWindow
+ */
++ (void)hideTopWindow
+{
+    [ZCTopWindow hide];
 }
 @end

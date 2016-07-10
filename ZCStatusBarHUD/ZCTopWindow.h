@@ -11,5 +11,5 @@
 @interface ZCTopWindow : NSObject
 
 + (void)show;
-
++ (void)hide;
 @end

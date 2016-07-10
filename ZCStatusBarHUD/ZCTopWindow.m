@@ -30,9 +30,12 @@ static UIWindow *topWindow_;
 
 + (void)show
 {
-    
     topWindow_.hidden = NO;
+}
 
++ (void)hide
+{
+    topWindow_.hidden = YES;
 }
 
 + (void)tap
