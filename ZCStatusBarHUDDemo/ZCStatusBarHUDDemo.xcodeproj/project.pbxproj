@@ -18,6 +18,7 @@
 		F77B27D31D2E25CD004AD05A /* ZCStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F77B27D21D2E25CD004AD05A /* ZCStatusBarHUD.bundle */; };
 		F77B27D61D2E25F9004AD05A /* ZCStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F77B27D51D2E25F9004AD05A /* ZCStatusBarHUD.m */; };
 		F7833BA91D3226E70070BC70 /* ZCStatusBarHUDController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7833BA81D3226E70070BC70 /* ZCStatusBarHUDController.m */; };
+		F7833BAC1D322DDF0070BC70 /* ZCTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F7833BAB1D322DDF0070BC70 /* ZCTopWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		F77B27D51D2E25F9004AD05A /* ZCStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCStatusBarHUD.m; sourceTree = "<group>"; };
 		F7833BA71D3226E70070BC70 /* ZCStatusBarHUDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCStatusBarHUDController.h; sourceTree = "<group>"; };
 		F7833BA81D3226E70070BC70 /* ZCStatusBarHUDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCStatusBarHUDController.m; sourceTree = "<group>"; };
+		F7833BAA1D322DDF0070BC70 /* ZCTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTopWindow.h; sourceTree = "<group>"; };
+		F7833BAB1D322DDF0070BC70 /* ZCTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTopWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +160,8 @@
 				F77B27D51D2E25F9004AD05A /* ZCStatusBarHUD.m */,
 				F7833BA71D3226E70070BC70 /* ZCStatusBarHUDController.h */,
 				F7833BA81D3226E70070BC70 /* ZCStatusBarHUDController.m */,
+				F7833BAA1D322DDF0070BC70 /* ZCTopWindow.h */,
+				F7833BAB1D322DDF0070BC70 /* ZCTopWindow.m */,
 			);
 			name = ZCStatusBarHUD;
 			path = ../../ZCStatusBarHUD;
@@ -300,6 +305,7 @@
 				F77B27A31D2E257C004AD05A /* AppDelegate.m in Sources */,
 				F7833BA91D3226E70070BC70 /* ZCStatusBarHUDController.m in Sources */,
 				F77B27D61D2E25F9004AD05A /* ZCStatusBarHUD.m in Sources */,
+				F7833BAC1D322DDF0070BC70 /* ZCTopWindow.m in Sources */,
 				F77B27A01D2E257C004AD05A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

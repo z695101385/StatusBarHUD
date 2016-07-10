@@ -8,6 +8,7 @@
 
 #import "ZCStatusBarHUD.h"
 #import "ZCStatusBarHUDController.h"
+#import "ZCTopWindow.h"
 
 #define ZCMessageFont [UIFont systemFontOfSize:12]
 
@@ -145,5 +146,10 @@ static NSTimer *timer_;
         window_ = nil;
         timer_ = nil;
     }];
+}
+
++ (void)showTopWindow
+{
+    [ZCTopWindow show];
 }
 @end

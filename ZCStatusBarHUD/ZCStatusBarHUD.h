@@ -45,4 +45,6 @@
  */
 + (void)hide;
 
++ (void)showTopWindow;
+
 @end
