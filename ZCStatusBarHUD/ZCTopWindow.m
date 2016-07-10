@@ -53,8 +53,11 @@ static UIWindow *topWindow_;
         CGRect newFrame = [subview.superview convertRect:subview.frame toView:[UIApplication sharedApplication].keyWindow];
         //CGRect newFrame = [[UIApplication sharedApplication].keyWindow convertRect:subview.frame fromView:subview.superview];
         
-        // 如果是scrollview,且显示在当前屏幕中（CGRectIntersectsRect判断scrollview是否与keyWindow相交） 滚动最顶部
-        if ([subview isKindOfClass:[UIScrollView class]]  && CGRectIntersectsRect([UIApplication sharedApplication].keyWindow.bounds, newFrame)) {
+        //判断scrollview是否显示在当前屏幕（CGRectIntersectsRect判断scrollview是否与keyWindow相交）
+        BOOL isShowingOnWindow = !subview.hidden && subview.alpha > 0.01 && CGRectIntersectsRect([UIApplication sharedApplication].keyWindow.bounds, newFrame);
+        
+        // 如果是scrollview,且显示在当前屏幕中,那么滚动最顶部
+        if ([subview isKindOfClass:[UIScrollView class]]  && isShowingOnWindow) {
             
             CGPoint offset = subview.contentOffset;
             offset.y = - subview.contentInset.top;
