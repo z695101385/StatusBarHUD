@@ -17,6 +17,7 @@
 		F77B27C41D2E257C004AD05A /* ZCStatusBarHUDDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F77B27C31D2E257C004AD05A /* ZCStatusBarHUDDemoUITests.m */; };
 		F77B27D31D2E25CD004AD05A /* ZCStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F77B27D21D2E25CD004AD05A /* ZCStatusBarHUD.bundle */; };
 		F77B27D61D2E25F9004AD05A /* ZCStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F77B27D51D2E25F9004AD05A /* ZCStatusBarHUD.m */; };
+		F7833BA91D3226E70070BC70 /* ZCStatusBarHUDController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7833BA81D3226E70070BC70 /* ZCStatusBarHUDController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		F77B27D21D2E25CD004AD05A /* ZCStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZCStatusBarHUD.bundle; sourceTree = "<group>"; };
 		F77B27D41D2E25F9004AD05A /* ZCStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCStatusBarHUD.h; sourceTree = "<group>"; };
 		F77B27D51D2E25F9004AD05A /* ZCStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCStatusBarHUD.m; sourceTree = "<group>"; };
+		F7833BA71D3226E70070BC70 /* ZCStatusBarHUDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCStatusBarHUDController.h; sourceTree = "<group>"; };
+		F7833BA81D3226E70070BC70 /* ZCStatusBarHUDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCStatusBarHUDController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +155,8 @@
 				F77B27D21D2E25CD004AD05A /* ZCStatusBarHUD.bundle */,
 				F77B27D41D2E25F9004AD05A /* ZCStatusBarHUD.h */,
 				F77B27D51D2E25F9004AD05A /* ZCStatusBarHUD.m */,
+				F7833BA71D3226E70070BC70 /* ZCStatusBarHUDController.h */,
+				F7833BA81D3226E70070BC70 /* ZCStatusBarHUDController.m */,
 			);
 			name = ZCStatusBarHUD;
 			path = ../../ZCStatusBarHUD;
@@ -293,6 +298,7 @@
 			files = (
 				F77B27A61D2E257C004AD05A /* ViewController.m in Sources */,
 				F77B27A31D2E257C004AD05A /* AppDelegate.m in Sources */,
+				F7833BA91D3226E70070BC70 /* ZCStatusBarHUDController.m in Sources */,
 				F77B27D61D2E25F9004AD05A /* ZCStatusBarHUD.m in Sources */,
 				F77B27A01D2E257C004AD05A /* main.m in Sources */,
 			);
@@ -520,6 +526,7 @@
 				F77B27CA1D2E257C004AD05A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F77B27CB1D2E257C004AD05A /* Build configuration list for PBXNativeTarget "ZCStatusBarHUDDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +535,7 @@
 				F77B27CD1D2E257C004AD05A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F77B27CE1D2E257C004AD05A /* Build configuration list for PBXNativeTarget "ZCStatusBarHUDDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +544,7 @@
 				F77B27D01D2E257C004AD05A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

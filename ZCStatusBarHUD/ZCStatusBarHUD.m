@@ -7,6 +7,7 @@
 //
 
 #import "ZCStatusBarHUD.h"
+#import "ZCStatusBarHUDController.h"
 
 #define ZCMessageFont [UIFont systemFontOfSize:12]
 
@@ -37,6 +38,7 @@ static NSTimer *timer_;
     
     window_.hidden = YES;
     window_ = [[UIWindow alloc] initWithFrame:frame];
+    window_.rootViewController = [[ZCStatusBarHUDController alloc] init];
     window_.windowLevel = UIWindowLevelStatusBar;
     window_.backgroundColor = [UIColor blackColor];
     window_.hidden = NO;
